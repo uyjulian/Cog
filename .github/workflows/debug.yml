@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - del_at3_desc_ffmpeg
   pull_request:
     branches:
       - main
+      - del_at3_desc_ffmpeg
 
 jobs:
   build:
